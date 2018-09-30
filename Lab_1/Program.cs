@@ -10,6 +10,17 @@ namespace Lab_1
     {
         static void Main(string[] args)
         {
+            String number = "";
+            Console.WriteLine("Enter a number.: ");
+            number = Console.ReadLine();
+            
+            Console.WriteLine($"The number you entered was.: {number}");
+            Console.ReadKey();
+
+
         }
     }
+
+
+
 }
